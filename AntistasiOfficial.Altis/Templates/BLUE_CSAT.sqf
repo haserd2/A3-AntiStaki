@@ -1,9 +1,9 @@
-bluHeliTrans = 		["O_Heli_Light_02_unarmed_F","O_Heli_Light_02_F","O_Heli_Transport_04_covered_F"];
-bluHeliTS = 		["O_Heli_Light_02_unarmed_F"];
-bluHeliDis = 		["O_Heli_Light_02_F"];
-bluHeliRope = 		["O_Heli_Transport_04_covered_F"];
-bluHeliArmed = 		["O_Heli_Light_02_F"];
-bluHeliGunship = 	["O_Heli_Attack_02_F"];
+bluHeliTrans = 		["OPTRE_Pelican_unarmed_ins","OPTRE_Pelican_armed_ins","OPTRE_Pelican_unarmed_ins"];
+bluHeliTS = 		["OPTRE_Pelican_unarmed_ins"];
+bluHeliDis = 		["OPTRE_Pelican_unarmed_ins"];
+bluHeliRope = 		["OPTRE_Pelican_unarmed_ins"];
+bluHeliArmed = 		["OPTRE_Pelican_armed_ins"];
+bluHeliGunship = 	["OPTRE_UNSC_hornet_ins"];
 bluCASFW = 			["O_Plane_CAS_02_F"];
 
 bluAS = 			["O_Plane_CAS_02_F"];
@@ -15,41 +15,41 @@ planesNATO = bluHeliTrans + bluHeliArmed + bluHeliGunship + bluCASFW;
 planesNATOTrans = bluHeliTrans;
 
 
-bluMBT = 		["O_MBT_02_cannon_F","O_MBT_02_cannon_F"];
-bluAPC = 		["O_APC_Wheeled_02_rcws_F"];
-bluIFV = 		["O_APC_Tracked_02_cannon_F"];
-bluIFVAA = 		["O_APC_Tracked_02_AA_F"];
+bluMBT = 		["",""];
+bluAPC = 		["OPTRE_M12_FAV_APC"];
+bluIFV = 		["OPTRE_M12A1OPTRE_M12A1_LRV_ins"];
+bluIFVAA = 		["OPTRE_M12R_AA_ins"];
 bluArty = 		["O_MBT_02_arty_F"]; bluArtyAmmoHE = "32Rnd_155mm_Mo_shells"; bluArtyAmmoLaser = "2Rnd_155mm_Mo_LG"; bluArtyAmmoSmoke = "2Rnd_155mm_Mo_LG";
 bluMLRS = 		["O_MBT_02_arty_F"];
-bluMRAP =		["O_MRAP_02_F"];
-bluMRAPHMG =	["O_MRAP_02_hmg_F"];
-bluTruckTP = 	["O_Truck_03_covered_F"];
-bluTruckMed = 	["O_Truck_03_medical_F"];
-bluTruckFuel = 	["O_Truck_03_fuel_F"];
+bluMRAP =		["OPTRE_M12_FAV_ins"];
+bluMRAPHMG =	["OPTRE_M12_LRV_ins"];
+bluTruckTP = 	["OPTRE_m1015_mule_ins"];
+bluTruckMed = 	["OPTRE_m1015_mule_ins"];
+bluTruckFuel = 	[""];
 
 vehNATO = bluMBT + bluAPC + bluIFV + bluIFVAA + bluArty + bluMLRS + bluMRAP + bluMRAPHMG + bluTruckTP + bluTruckMed + bluTruckFuel;
 
 
-bluStatAA = 	["O_static_AA_F"];
-bluStatAT = 	["O_static_AT_F"];
-bluStatHMG = 	["O_HMG_01_high_F"];
+bluStatAA = 	["OPTRE_Static_AA_ins"];
+bluStatAT = 	["OPTRE_Static_ATGM_Ins"];
+bluStatHMG = 	["OPTRE_Static_M41_Ins"];
 bluStatMortar = ["O_Mortar_01_F"];
 
 
-bluPilot = 	"O_Pilot_F";
-bluCrew = 	"O_crew_F";
-bluGunner = "O_support_MG_F";
+bluPilot = 	"OPTRE_Ins_URF_Pilot";
+bluCrew = 	"OPTRE_Ins_URF_Crewman";
+bluGunner = "OPTRE_Ins_URF_Rifleman_AR";
 
-bluMRAPHMGgroup = 	["O_recon_LAT_F","O_Sharpshooter_F"];
-bluMRAPgroup = 		["O_medic_F","O_recon_F","O_recon_JTAC_F"];
+bluMRAPHMGgroup = 	["OPTRE_Ins_URF_Rifleman_AT","OPTRE_Ins_URF_Marksman"];
+bluMRAPgroup = 		["OPTRE_Ins_URF_Medic","OPTRE_Ins_URF_Observer","OPTRE_Ins_URF_Grenadier"];
 
-bluAirCav = 	["O_recon_TL_F","O_recon_LAT_F","O_recon_M_F","O_recon_medic_F","O_recon_F","O_recon_JTAC_F"];
+bluAirCav = 	["OPTRE_Ins_URF_TeamLead","OPTRE_Ins_URF_Rifleman_AT","OPTRE_Ins_URF_Marksman","OPTRE_Ins_URF_Medic","OPTRE_Ins_URF_Observer","OPTRE_Ins_URF_Grenadier"];
 
 
-bluSquad = 			["OIA_InfSquad"];
-bluSquadWeapons = 	["OIA_InfSquad_Weapons"];
-bluTeam = 			["OIA_InfTeam"];
-bluATTeam = 		["OIA_InfTeam_AT"];
+bluSquad = 			["OPTRE_Ins_URF_SquadLead","OPTRE_Ins_URF_Rifleman_AR","OPTRE_Ins_URF_Rifleman_AR","OPTRE_Ins_URF_Rifleman_AR","OPTRE_Ins_URF_Rifleman_AT","OPTRE_Ins_URF_Marksman","OPTRE_Ins_URF_Demolitions","OPTRE_Ins_URF_Autorifleman","OPTRE_Ins_URF_Assist_Autorifleman","OPTRE_Ins_URF_Medic"];
+bluSquadWeapons = 	["OPTRE_Ins_URF_SquadLead","OPTRE_Ins_URF_Assist_Autorifleman","OPTRE_Ins_URF_Marksman","OPTRE_Ins_URF_Autorifleman","OPTRE_Ins_URF_Rifleman_AT","OPTRE_Ins_URF_AT_Specialist","OPTRE_Ins_URF_Grenadier","OPTRE_Ins_URF_Medic"];
+bluTeam = 			["OPTRE_Ins_URF_TeamLead","OPTRE_Ins_URF_Rifleman_AR","OPTRE_Ins_URF_Marksman","OPTRE_Ins_URF_Medic","OPTRE_Ins_URF_Rifleman_AR","OPTRE_Ins_URF_Grenadier"];
+bluATTeam = 		["OPTRE_Ins_URF_TeamLead","OPTRE_Ins_URF_Rifleman_AT","OPTRE_Ins_URF_Marksman","OPTRE_Ins_URF_Medic","OPTRE_Ins_URF_Observer","OPTRE_Ins_URF_Grenadier"];
 
 bluIR = 	"acc_pointer_IR";
 
@@ -58,12 +58,12 @@ bluFlag = 	"Flag_CSAT_F";
 bluCfgInf = (configfile >> "CfgGroups" >> "East" >> "OPF_F" >> "Infantry");
 
 //Vehicles to buy
-	blubuyTruck =			"B_Truck_01_covered_F";
-	blubuyAPC = 			"B_APC_Tracked_01_rcws_F";
-	blubuyMRAP = 			"B_MRAP_01_hmg_F";
+	blubuyTruck =			"OPTRE_m1015_mule_ins";
+	blubuyAPC = 			"OPTRE_M12A1OPTRE_M12A1_LRV_ins";
+	blubuyMRAP = 			"OPTRE_M12_FAV_APC";
 
 //Airfield vehicle (max1)
-	blubuyHeli = 			"B_Heli_Light_01_F";
+	blubuyHeli = 			"OPTRE_Pelican_armed_ins";
 //Seaport vehicle
 	blubuyBoat = 			"B_Boat_Armed_01_minigun_F";
 //Special vehicle to buy (max 1)
@@ -71,67 +71,164 @@ bluCfgInf = (configfile >> "CfgGroups" >> "East" >> "OPF_F" >> "Infantry");
 	blubuylist = [blubuyBoat,blubuyHeli,blubuyMRAP,blubuyAPC,blubuyTruck];
 
 bluRifle = [
-	"arifle_Katiba_C_F",
-	"arifle_Katiba_F"
+	"OPTRE_MA5A",
+	"OPTRE_MA37"
 ];
 
 bluGL = [
-	"arifle_Katiba_GL_F"
+	"OPTRE_MA5AGL"
 ];
 
 bluSNPR = [
-	"srifle_GM6_F ",
-	"srifle_DMR_01_DMS_F",
-	"srifle_DMR_01_F",
-	"srifle_DMR_01_F"
+	"OPTRE_SRS99C ",
+	"OPTRE_M392_DMR",
+	"OPTRE_M393S_DMR",
+	"OPTRE_M393_DMR"
 ];
 
 bluLMG = [
-	"LMG_Zafir_F",
-	"LMG_Mk200_F"
+	"OPTRE_M73",
+	"OPTRE_M247"
 ];
 
 bluSmallWpn = [
-	"SMG_02_F",
-	"hgun_Rook40_F"
+	"OPTRE_M7",
+	"OPTRE_M6C"
 ];
 
 bluRifleAmmo = [
-	"30Rnd_65x39_caseless_green",
-	"30Rnd_65x39_caseless_green_mag_Tracer"
+"OPTRE_8Rnd_127x40_Mag",
+"OPTRE_12Rnd_127x40_Mag",
+"OPTRE_36Rnd_95x40_Mag",
+"OPTRE_100Rnd_762x51_Box_Tracer",
+"OPTRE_100Rnd_762x51_Box",
+"OPTRE_15Rnd_762x51_Mag",
+"OPTRE_15Rnd_762x51_Mag",
+"OPTRE_12Rnd_8Gauge_Pellets",
+"OPTRE_6Rnd_8Gauge_Pellets",
+"OPTRE_12Rnd_8Gauge_Slugs",
+"OPTRE_6Rnd_8Gauge_Slugs",
+"OPTRE_100Rnd_95x40_Box",
+"OPTRE_60Rnd_5x23mm_Mag",
+"OPTRE_32Rnd_762x51_Mag",
+"OPTRE_60Rnd_762x51_Mag",
+"OPTRE_4Rnd_145x114_APFSDS_Mag",
+"OPTRE_8Rnd_127x40_Mag",
+"OPTRE_4Rnd_145x114_HVAP_Mag",
+"OPTRE_4Rnd_145x114_HEDP_Mag",
+"1Rnd_Smoke_Grenade_shell",
+"3Rnd_HE_Grenade_shell",
+"OPTRE_M9_Frag",
+"20Rnd_762x51_Mag",
+"30Rnd_65x39_caseless_mag"
 ];
 
 bluSNPRAmmo = [
-	"5Rnd_127x108_Mag",
-	"10Rnd_762x54_Mag",
-	"10Rnd_762x54_Mag"
+"OPTRE_8Rnd_127x40_Mag",
+"OPTRE_12Rnd_127x40_Mag",
+"OPTRE_36Rnd_95x40_Mag",
+"OPTRE_100Rnd_762x51_Box_Tracer",
+"OPTRE_100Rnd_762x51_Box",
+"OPTRE_15Rnd_762x51_Mag",
+"OPTRE_15Rnd_762x51_Mag",
+"OPTRE_12Rnd_8Gauge_Pellets",
+"OPTRE_6Rnd_8Gauge_Pellets",
+"OPTRE_12Rnd_8Gauge_Slugs",
+"OPTRE_6Rnd_8Gauge_Slugs",
+"OPTRE_100Rnd_95x40_Box",
+"OPTRE_60Rnd_5x23mm_Mag",
+"OPTRE_32Rnd_762x51_Mag",
+"OPTRE_60Rnd_762x51_Mag",
+"OPTRE_4Rnd_145x114_APFSDS_Mag",
+"OPTRE_8Rnd_127x40_Mag",
+"OPTRE_4Rnd_145x114_HVAP_Mag",
+"OPTRE_4Rnd_145x114_HEDP_Mag",
+"1Rnd_Smoke_Grenade_shell",
+"3Rnd_HE_Grenade_shell",
+"OPTRE_M9_Frag",
+"20Rnd_762x51_Mag",
+"30Rnd_65x39_caseless_mag"
 ];
 
 bluLMGAmmo = [
-	"150Rnd_762x54_Box",
-	"200Rnd_65x39_cased_Box",
-	"200Rnd_65x39_cased_Box_Tracer"
+"OPTRE_8Rnd_127x40_Mag",
+"OPTRE_12Rnd_127x40_Mag",
+"OPTRE_36Rnd_95x40_Mag",
+"OPTRE_100Rnd_762x51_Box_Tracer",
+"OPTRE_100Rnd_762x51_Box",
+"OPTRE_15Rnd_762x51_Mag",
+"OPTRE_15Rnd_762x51_Mag",
+"OPTRE_12Rnd_8Gauge_Pellets",
+"OPTRE_6Rnd_8Gauge_Pellets",
+"OPTRE_12Rnd_8Gauge_Slugs",
+"OPTRE_6Rnd_8Gauge_Slugs",
+"OPTRE_100Rnd_95x40_Box",
+"OPTRE_60Rnd_5x23mm_Mag",
+"OPTRE_32Rnd_762x51_Mag",
+"OPTRE_60Rnd_762x51_Mag",
+"OPTRE_4Rnd_145x114_APFSDS_Mag",
+"OPTRE_8Rnd_127x40_Mag",
+"OPTRE_4Rnd_145x114_HVAP_Mag",
+"OPTRE_4Rnd_145x114_HEDP_Mag",
+"1Rnd_Smoke_Grenade_shell",
+"3Rnd_HE_Grenade_shell",
+"OPTRE_M9_Frag",
+"20Rnd_762x51_Mag",
+"30Rnd_65x39_caseless_mag"
 ];
 
 bluSmallAmmo = [
-	"30Rnd_9x21_Mag_SMG_02",
-	"30Rnd_9x21_Mag_SMG_02_Tracer_Red",
-	"16Rnd_9x21_Mag"
+"OPTRE_8Rnd_127x40_Mag",
+"OPTRE_12Rnd_127x40_Mag",
+"OPTRE_36Rnd_95x40_Mag",
+"OPTRE_100Rnd_762x51_Box_Tracer",
+"OPTRE_100Rnd_762x51_Box",
+"OPTRE_15Rnd_762x51_Mag",
+"OPTRE_15Rnd_762x51_Mag",
+"OPTRE_12Rnd_8Gauge_Pellets",
+"OPTRE_6Rnd_8Gauge_Pellets",
+"OPTRE_12Rnd_8Gauge_Slugs",
+"OPTRE_6Rnd_8Gauge_Slugs",
+"OPTRE_100Rnd_95x40_Box",
+"OPTRE_60Rnd_5x23mm_Mag",
+"OPTRE_32Rnd_762x51_Mag",
+"OPTRE_60Rnd_762x51_Mag",
+"OPTRE_4Rnd_145x114_APFSDS_Mag",
+"OPTRE_8Rnd_127x40_Mag",
+"OPTRE_4Rnd_145x114_HVAP_Mag",
+"OPTRE_4Rnd_145x114_HEDP_Mag",
+"1Rnd_Smoke_Grenade_shell",
+"3Rnd_HE_Grenade_shell",
+"OPTRE_M9_Frag",
+"20Rnd_762x51_Mag",
+"30Rnd_65x39_caseless_mag"
 ];
 
 bluAmmo = [
-	"30Rnd_9x21_Mag_SMG_02",
-	"30Rnd_9x21_Mag_SMG_02_Tracer_Red",
-	"16Rnd_9x21_Mag",
-	"150Rnd_762x54_Box",
-	"200Rnd_65x39_cased_Box",
-	"200Rnd_65x39_cased_Box_Tracer",
-	"5Rnd_127x108_Mag",
-	"10Rnd_762x54_Mag",
-	"10Rnd_762x54_Mag",
-	"20Rnd_762x51_Mag",
-	"30Rnd_65x39_caseless_green",
-	"30Rnd_65x39_caseless_green_mag_Tracer"
+"OPTRE_8Rnd_127x40_Mag",
+"OPTRE_12Rnd_127x40_Mag",
+"OPTRE_36Rnd_95x40_Mag",
+"OPTRE_100Rnd_762x51_Box_Tracer",
+"OPTRE_100Rnd_762x51_Box",
+"OPTRE_15Rnd_762x51_Mag",
+"OPTRE_15Rnd_762x51_Mag",
+"OPTRE_12Rnd_8Gauge_Pellets",
+"OPTRE_6Rnd_8Gauge_Pellets",
+"OPTRE_12Rnd_8Gauge_Slugs",
+"OPTRE_6Rnd_8Gauge_Slugs",
+"OPTRE_100Rnd_95x40_Box",
+"OPTRE_60Rnd_5x23mm_Mag",
+"OPTRE_32Rnd_762x51_Mag",
+"OPTRE_60Rnd_762x51_Mag",
+"OPTRE_4Rnd_145x114_APFSDS_Mag",
+"OPTRE_8Rnd_127x40_Mag",
+"OPTRE_4Rnd_145x114_HVAP_Mag",
+"OPTRE_4Rnd_145x114_HEDP_Mag",
+"1Rnd_Smoke_Grenade_shell",
+"3Rnd_HE_Grenade_shell",
+"OPTRE_M9_Frag",
+"20Rnd_762x51_Mag",
+"30Rnd_65x39_caseless_mag"
 ];
 
 blu40mm = [
@@ -140,44 +237,55 @@ blu40mm = [
 ];
 
 bluGrenade = [
-	"HandGrenade"
+	"OPTRE_M9_Frag"
 ];
 
 bluAT = [
-	"launch_O_Titan_short_F",
-	"launch_NLAW_F"
+	"OPTRE_M41_SSR",
+	"OPTRE_M41_SSR"
 ];
 
 bluAA = [
-	"launch_O_Titan_F"
+	"OPTRE_M41_SSR_G"
 ];
 
 bluVest = [
-	"V_TacVest_brn"
+	"OPTRE_Ins_URF_Armor1"
 ];
 
 bluScopes = [
-	"optic_Nightstalker",
-	"optic_Holosight",
-	"optic_Hamr",
-	"optic_ERCO_snd_F"
+"OPTRE_SRS99C_Scope",
+"OPTRE_SRS99_Scope",
+"REC_HOLO",
+"SENT_CG",
+"OPTRE_BR55HB_Scope",
+"OPTRE_M392_Scope",
+"OPTRE_M393_Scope",
+"OPTRE_M393_ACOG",
+"OPTRE_M7_Sight",
+"OPTRE_M393_EOTECH"
 ];
 
 bluAttachments = [
-	"muzzle_snds_338_sand",
-	"bipod_01_F_snd",
-	"muzzle_snds_H_khk_F",
-	"muzzle_snds_B_snd_F"
+"OPTRE_SRS99D_Suppressor",
+"muzzle_snds_65_TI_blk_F",
+"OPTRE_M393_Suppressor",
+"OPTRE_M7_silencer",
+"OPTRE_M7_Laser",
+"OPTRE_M6C_compensator",
+"OPTRE_M6C_Laser",
+"OPTRE_M6_silencer",
+"OPTRE_M6G_Flashlight"
 ];
 
 bluATMissile = [
-	"NLAW_F",
-	"Titan_AT",
-	"Titan_AP"
+	"OPTRE_M41_Twin_HEAT",
+	"OPTRE_M41_Twin_HEAT",
+	"OPTRE_M41_Twin_HEAP"
 ];
 
 bluAAMissile = [
-	"Titan_AA"
+	"OPTRE_M41_Twin_HEAT_G"
 ];
 
 bluItems = bluVest + bluScopes + bluAttachments;

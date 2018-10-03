@@ -336,15 +336,15 @@ class Params {
             texts[] = {$STR_DES_OFF,$STR_DES_ON};
             default = 0;
             typeName = "BOOL";
-            force = 1;
+            force = 0;
     };
     class AS_enableServerMember {
         title = $STR_DES_ESRMBR;
             values[] = {0,1};
             texts[] = {$STR_DES_OFF,$STR_DES_ON};
-            default = 1;
+            default = 0;
             typeName = "BOOL";
-            force = 1;
+            force = 0;
     };
 	//added by Fireman 12/08/2017
 	class AS_param_tkPenalty {
@@ -353,7 +353,7 @@ class Params {
             texts[] = {$STR_DES_OFF,$STR_DES_ON};
             default = 0;
             typeName = "BOOL";
-            force = 1;
+            force = 0;
     };
     class AS_param_onlyPermanentMembers {
         title = $STR_DES_OPMAEFCAS;

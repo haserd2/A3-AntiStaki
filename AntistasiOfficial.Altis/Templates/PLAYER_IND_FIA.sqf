@@ -6,11 +6,11 @@ guer_flag_texture = "\A3\Data_F\Flags\Flag_FIA_CO.paa";
 
 guer_rem_des = "O_Static_Designator_02_F";
 
-guer_veh_truck = "I_G_Van_01_transport_F"; // default transport for squads
-guer_veh_engineer = "I_G_Offroad_01_repair_F";
-guer_veh_technical = "I_G_Offroad_01_armed_F";
-guer_veh_quad = "I_G_Quadbike_01_F"; // default transport for snipers
-guer_veh_offroad = "I_G_Offroad_01_F"; // default transport for teams
+guer_veh_truck = "OPTRE_m1015_mule_ins"; // default transport for squads
+guer_veh_engineer = "OPTRE_M914_RV_ins";
+guer_veh_technical = "OPTRE_M12_LRV_ins";
+guer_veh_quad = "OPTRE_274_ATV_Ins"; // default transport for snipers
+guer_veh_offroad = "OPTRE_M12_FAV_APC"; // default transport for teams
 guer_veh_dinghy = "C_Boat_Civil_01_F";
 
 guer_sol_AA = "I_G_Soldier_lite_F"; // AA trooper in player groups
@@ -32,10 +32,10 @@ guer_sol_UN = "I_G_Soldier_unarmed_F"; // mortar gunner
 
 guer_POW = "I_G_Survivor_F"; //
 
-guer_stat_mortar = "I_G_Mortar_01_F";
-guer_stat_MGH = "I_HMG_01_high_F";
-guer_stat_AT = "I_static_AT_F";
-guer_stat_AA = "I_static_AA_F";
+guer_stat_mortar = "B_G_Mortar_01_F";
+guer_stat_MGH = "OPTRE_Static_M41_Ins";
+guer_stat_AT = "OPTRE_Static_FG75";
+guer_stat_AA = "OPTRE_Static_AA_Ins";
 
 guer_cfg_inf = (configfile >> "CfgGroups" >> "independent" >> "Guerilla" >> "Infantry");
 
@@ -58,52 +58,52 @@ if !(activeAFRF) then {
 	3-10: military vehicles and statics
 	*/
 
-if (worldname == "Tanoa") then {
-	vfs = [
-		"C_Offroad_02_unarmed_F_green",
-		"C_Van_01_transport_F",
-		"C_Heli_Light_01_civil_F",
-		"O_LSV_02_unarmed_F",
-		"I_C_Offroad_02_unarmed_F",
-		"I_C_Van_01_transport_F",
-		"I_G_Offroad_01_armed_F",
-		"I_HMG_01_high_F",
-		"I_G_Mortar_01_F",
-		"I_static_AT_F",
-		"I_static_AA_F",
-		"C_Quadbike_01_F"
+	if (worldname == "Tanoa") then {
+		vfs = [
+			"C_Offroad_02_unarmed_F_green",
+			"C_Van_01_transport_F",
+			"C_Heli_Light_01_civil_F",
+			"O_LSV_02_unarmed_F",
+			"I_C_Offroad_02_unarmed_F",
+			"I_C_Van_01_transport_F",
+			"I_G_Offroad_01_armed_F",
+			"I_HMG_01_high_F",
+			"I_G_Mortar_01_F",
+			"I_static_AT_F",
+			"OPTRE_Static_AA_Ins",
+			"C_Quadbike_01_F"
+			];
+
+			} else {
+
+		vfs = [
+			"C_Offroad_01_F",
+			"C_Van_01_transport_F",
+			"OPCAN_Pelican_CIVTRX2",
+			"O_LSV_02_unarmed_F",
+			"OPTRE_M12_FAV_APC",
+			"OPTRE_m1015_mule_ins",
+			"OPTRE_M12_LRV_ins",
+			"OPTRE_Static_M41_Ins",
+			"B_G_Mortar_01_F",
+			"OPTRE_Static_FG75",
+			"OPTRE_Static_AA_Ins",
+			"C_Quadbike_01_F"
 		];
-
-		} else {
-
-	vfs = [
-		"C_Offroad_01_F",
-		"C_Van_01_transport_F",
-		"C_Heli_Light_01_civil_F",
-		"O_LSV_02_unarmed_F",
-		"I_G_Offroad_01_F",
-		"I_G_Van_01_transport_F",
-		"I_G_Offroad_01_armed_F",
-		"B_HMG_01_high_F",
-		"I_G_Mortar_01_F",
-		"I_static_AT_F",
-		"I_static_AA_F",
-		"C_Quadbike_01_F"
-	];
-};
+	};
 
 	guer_gear_vestAdv = "V_PlateCarrierIAGL_oli";
 	guer_gear_vestMedic = "";
 	guer_gear_vestEngineer = "";
 
-	guer_gear_AT = "launch_B_Titan_short_F";
-	guer_gear_LAT = "launch_NLAW_F";
-	guer_gear_AA = "launch_B_Titan_F";
-	guer_gear_SNPR = "srifle_LRR_F";
-	guer_gear_SNPR_camo = "srifle_LRR_F";
-	guer_gear_GL = "arifle_TRG21_GL_F";
-	guer_gear_LMG = "LMG_Mk200_F";
-	guer_gear_Carbine = "arifle_Mk20C_F";
+	guer_gear_AT = "OPTRE_M41_SSR";
+	guer_gear_LAT = "OPTRE_M41_SSR";
+	guer_gear_AA = "OPTRE_M41_SSR_G";
+	guer_gear_SNPR = "OPTRE_SRS99C";
+	guer_gear_SNPR_camo = "OPTRE_SRS99C";
+	guer_gear_GL = "OPTRE_MA5AGL";
+	guer_gear_LMG = "OPTRE_M73";
+	guer_gear_Carbine = "OPTRE_BR55HB";
 	guer_gear_GL_gren = "1Rnd_HE_Grenade_shell";
 	guer_gear_grenSmoke = "SmokeShell";
 	guer_gear_grenHE = "HandGrenade";

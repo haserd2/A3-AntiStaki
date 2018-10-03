@@ -2,51 +2,52 @@
 List of infantry classes. These will have individual skills and equipment mapped to them.
 If you wish to add more soldiers beyond the available variables, you also need to add any new variables to the class lists below as well as to genInit.sqf and genInitBASES.sqf
 */
-sol_A_AA = 	"B_Soldier_AAA_F"; // Assistant AA
-sol_A_AR = 	"B_Soldier_AAR_F"; // Assistant autorifle
-sol_A_AT = 	"B_Soldier_AAT_F"; // Assistant AT
-sol_AA = 	"B_Soldier_AA_F"; // AA
-sol_AR = 	"B_Soldier_AR_F"; // Autorifle
-sol_AT = 	"B_Soldier_AT_F"; // AT
-sol_AMMO = 	"B_Soldier_A_F"; // Ammo bearer
-sol_GL = 	"B_Soldier_GL_F"; // Grenade launcher
-sol_GL2 = 	"B_Soldier_GL_F"; // Grenade launcher (extra)
-sol_LAT = 	"B_Soldier_LAT_F"; // Light AT
-sol_LAT2 = 	"B_Soldier_LAT_F"; // Light AT (extra)
-sol_MG = 	"B_Soldier_AR_F"; // Machinegunner (extra)
-sol_MK = 	"B_Soldier_M_F"; // Marksman
-sol_SL = 	"B_Soldier_SL_F"; // Squad leader
-sol_TL = 	"B_Soldier_TL_F"; // Team leader
-sol_TL2 = 	"B_Soldier_TL_F"; // Team leader (extra)
-sol_EXP = 	"B_Soldier_exp_F"; // Explosives
-sol_R_L = 	"B_Soldier_lite_F"; // Rifleman, light
-sol_REP = 	"B_Soldier_repair_F"; // Repair
-sol_UN = 	"B_Soldier_unarmed_F"; // Unarmed
-sol_RFL = 	"B_soldier_F"; // Rifleman
-sol_SN = 	"B_Sniper_F"; // Sniper
-sol_SP = 	"B_Spotter_F"; // Spotter
-sol_MED = 	"B_medic_F"; // Medic
-sol_ENG = 	"B_engineer_F"; // Engineer
-sol_OFF = 	"B_officer_F"; // Officer
-sol_OFF2 = 	"B_officer_F"; // Officer (extra)
+sol_A_AA = 	"OPTRE_UNSC_Army_Soldier_Assist_Autorifleman_OLI"; // Assistant AA
+sol_A_AR = 	"OPTRE_UNSC_Army_Soldier_Assist_Autorifleman_OLI"; // Assistant autorifle
+sol_A_AT = 	"OPTRE_UNSC_Army_Soldier_Assist_Autorifleman_OLI"; // Assistant AT
+sol_AA = 	"OPTRE_UNSC_Army_Soldier_AA_Specialist_OLI"; // AA
+sol_AR = 	"OPTRE_UNSC_Army_Soldier_Autorifleman_OLI"; // Autorifle
+sol_AT = 	"OPTRE_UNSC_Army_Soldier_Rifleman_AT_OLI"; // AT
+sol_AMMO = 	"OPTRE_UNSC_Army_Soldier_Breacher_OLI"; // Ammo bearer
+sol_GL = 	"OPTRE_UNSC_Army_Soldier_Grenadier_OLI"; // Grenade launcher
+sol_GL2 = 	"OPTRE_UNSC_Army_Soldier_Grenadier_OLI"; // Grenade launcher (extra)
+sol_LAT = 	"OPTRE_UNSC_Army_Soldier_Rifleman_AT_OLI"; // Light AT
+sol_LAT2 = 	"OPTRE_UNSC_Army_Soldier_Rifleman_AT_OLI"; // Light AT (extra)
+sol_MG = 	"OPTRE_UNSC_Army_Soldier_Autorifleman_OLI"; // Machinegunner (extra)
+sol_MK = 	"OPTRE_UNSC_Army_Soldier_Marksman_OLI"; // Marksman
+sol_SL = 	"OPTRE_UNSC_Army_Soldier_SquadLead_OLI"; // Squad leader
+sol_TL = 	"OPTRE_UNSC_Army_Soldier_TeamLead_OLI"; // Team leader
+sol_TL2 = 	"OPTRE_UNSC_Army_Soldier_TeamLead_OLI"; // Team leader (extra)
+sol_EXP = 	"OPTRE_UNSC_Army_Soldier_Demolitions_OLI"; // Explosives
+sol_R_L = 	"OPTRE_UNSC_Army_Soldier_Rifleman_Light_OLI"; // Rifleman, light
+sol_REP = 	"OPTRE_UNSC_Army_Soldier_Engineer_OLI"; // Repair
+sol_UN = 	"OPTRE_UNSC_Army_Soldier_Unarmed_OLI"; // Unarmed
+sol_RFL = 	"OPTRE_UNSC_Army_Soldier_Rifleman_AR_OLI"; // Rifleman
+sol_RFL2 = 	"OPTRE_UNSC_Army_Soldier_Rifleman_BR_OLI"; // Rifleman
+sol_SN = 	"OPTRE_UNSC_Army_Soldier_Sniper_OLI"; // Sniper
+sol_SP = 	"OPTRE_UNSC_Army_Soldier_ForwardObserver_OLI"; // Spotter
+sol_MED = 	"OPTRE_UNSC_Army_Soldier_Medic_OLI"; // Medic
+sol_ENG = 	"OPTRE_UNSC_Army_Soldier_Engineer_OLI"; // Engineer
+sol_OFF = 	"OPTRE_UNSC_Army_Soldier_Officer_OLI"; // Officer
+sol_OFF2 = 	"OPTRE_UNSC_Army_Soldier_Officer_OLI"; // Officer (extra)
 
-sol_CREW = 	"B_crew_F"; // Crew
-sol_CREW2 = "B_crew_F"; // Crew (extra)
-sol_CREW3 = "B_crew_F"; // Crew (extra)
-sol_CREW4 = "B_crew_F"; // Crew (extra)
-sol_DRV = 	"B_crew_F"; // Driver (extra)
-sol_DRV2 = 	"B_crew_F"; // Driver (extra)
-sol_HCREW = "B_helicrew_F"; // Helicopter crew
-sol_HPIL = 	"B_helipilot_F"; // Helicopter pilot
-sol_HPIL2 = "B_helipilot_F"; // Helicopter pilot (extra)
-sol_PIL = 	"B_pilot_F"; // Pilot
-sol_UAV = 	"B_soldier_UAV_F"; // UAV controller
+sol_CREW = 	"OPTRE_UNSC_Army_Soldier_Crewman_OLI"; // Crew
+sol_CREW2 = "OPTRE_UNSC_Army_Soldier_Crewman_OLI"; // Crew (extra)
+sol_CREW3 = "OPTRE_UNSC_Army_Soldier_Crewman_OLI"; // Crew (extra)
+sol_CREW4 = "OPTRE_UNSC_Army_Soldier_Crewman_OLI"; // Crew (extra)
+sol_DRV = 	"OPTRE_UNSC_Army_Soldier_Crewman_OLI"; // Driver (extra)
+sol_DRV2 = 	"OPTRE_UNSC_Army_Soldier_Crewman_OLI"; // Driver (extra)
+sol_HCREW = "OPTRE_UNSC_Navy_Soldier_Olive"; // Helicopter crew
+sol_HPIL = 	"OPTRE_UNSC_Airforce_Soldier_Airman"; // Helicopter pilot
+sol_HPIL2 = "OPTRE_UNSC_Airforce_Soldier_Airman"; // Helicopter pilot (extra)
+sol_PIL = 	"OPTRE_UNSC_Airforce_Soldier_Airman"; // Pilot
+sol_UAV = 	"OPTRE_UNSC_Army_Soldier_Rifleman_Light_OLI"; // UAV controller
 
-sol_SUP_AMG = 	"B_support_AMG_F"; // Assistant HMG gunner
-sol_SUP_AMTR = 	"B_support_AMort_F"; // Assistant mortar gunner
-sol_SUP_GMG = 	"B_support_GMG_F"; // GMG gunner
-sol_SUP_MG = 	"B_support_MG_F"; // HMG gunner
-sol_SUP_MTR = 	"B_support_Mort_F"; // mortar gunner
+sol_SUP_AMG = 	"OPTRE_UNSC_Army_Soldier_Rifleman_AR_OLI"; // Assistant HMG gunner
+sol_SUP_AMTR = 	"OPTRE_UNSC_Army_Soldier_Rifleman_AR_OLI"; // Assistant mortar gunner
+sol_SUP_GMG = 	"OPTRE_UNSC_Army_Soldier_Rifleman_AR_OLI"; // GMG gunner
+sol_SUP_MG = 	"OPTRE_UNSC_Army_Soldier_Rifleman_AR_OLI"; // HMG gunner
+sol_SUP_MTR = 	"OPTRE_UNSC_Army_Soldier_Rifleman_AR_OLI"; // mortar gunner
 
 // Standard roles for static gunner, crew, and unarmed helicopter pilot
 infGunner =	sol_SUP_MG;
@@ -64,22 +65,22 @@ infList_crew = 		[sol_UN, sol_CREW, sol_CREW2, sol_CREW3, sol_CREW4, sol_DRV, so
 infList_pilots = 	[sol_HPIL, sol_HPIL2, sol_PIL];
 
 // Vehicles
-vehTrucks = 		["B_Truck_01_covered_F","B_Truck_01_transport_F"]; // trucks that spawn at outposts, etc
-vehPatrol =			["B_MRAP_01_F","B_MRAP_01_hmg_F","B_MRAP_01_gmg_F","B_Heli_Transport_01_F"]; // vehicles used for road patrols;
-vehAPC = 			["B_APC_Tracked_01_rcws_F"]; // APCs
-vehIFV = 			["B_APC_Wheeled_01_cannon_F"]; // IFVs
-vehTank = 			["B_MBT_01_cannon_F"]; // MBTs
-vehSupply = 		["B_Truck_01_fuel_F","B_Truck_01_medical_F","B_Truck_01_ammo_F"]; // supply vehicles (ammo, fuel, med)
-vehAmmo = 			"B_Truck_01_ammo_F"; // ammo truck, for special missions
-vehLead = 			["B_MRAP_01_hmg_F","B_MRAP_01_gmg_F"]; // lead vehicle for convoys, preferably armed MRAP/car
-standardMRAP = 		["B_MRAP_01_F"]; // default transport MRAP/car
-vehTruckBox = 		["B_Truck_01_box_F"]; // repair truck or at least a prop
+vehTrucks = 		["OPTRE_m1087_stallion_unsc","OPTRE_M813_TT"]; // trucks that spawn at outposts, etc
+vehPatrol =			["OPTRE_M12_FAV","OPTRE_M12_LRV","OPTRE_M12G1_LRV","OPTRE_UNSC_falcon_unarmed"]; // vehicles used for road patrols;
+vehAPC = 			["OPTRE_M412_IFV_UNSC"]; // APCs
+vehIFV = 			["OPTRE_M413_MGS_UNSC"]; // IFVs
+vehTank = 			["OPTRE_M808B_UNSC","OPTRE_M850_UNSC"]; // MBTs
+vehSupply = 		["OPTRE_m1087OPTRE_M1087_stallion_unsc_refuel","OPTRE_m1087OPTRE_M1087_stallion_unsc_medical","OPTRE_m1087OPTRE_M1087_stallion_unsc_resupply"]; // supply vehicles (ammo, fuel, med)
+vehAmmo = 			"OPTRE_m1087OPTRE_M1087_stallion_unsc_resupply"; // ammo truck, for special missions
+vehLead = 			["OPTRE_M12_LRV","OPTRE_M12A1_LRV"]; // lead vehicle for convoys, preferably armed MRAP/car
+standardMRAP = 		["OPTRE_M813_TT"]; // default transport MRAP/car
+vehTruckBox = 		["OPTRE_m1087OPTRE_M1087_stallion_unsc_repair"]; // repair truck or at least a prop
 vehPatrolBoat = 	["I_Boat_Armed_01_minigun_F"];
 vehDef = 		["B_APC_Wheeled_01_cannon_F"];
 
 /*
 Not in use with AAF
-vehTruckAA = 		"";
+vehTruckAA = 		"OPTRE_M12R_AA";
 guer_vehicleArray pushBackUnique vehTruckAA;
 */
 
@@ -87,39 +88,39 @@ var_AAF_groundForces = vehTrucks + vehPatrol + vehAPC + vehIFV + vehTank + vehLe
 var_AAF_groundForces = var_AAF_groundForces arrayIntersect var_AAF_groundForces;
 
 // Airforce
-heli_unarmed = 		["B_Heli_Transport_03_unarmed_F","B_Heli_Transport_01_F"]; // (un-)armed transport helicopters
-heli_armed = 		["B_Heli_Transport_01_F"]; // armed helicopters
-heli_escort = 		"B_Heli_Transport_01_F";
-planes = 			["B_Plane_CAS_01_F"];; // attack planes
-heli_default = 		"B_Heli_Transport_01_F"; // default helicopter -- NOT AN ARRAY!
-heli_transport = 	"B_Heli_Transport_03_F";
+heli_unarmed = 		["OPTRE_Pelican_unarmed","OPTRE_UNSC_falcon_unarmed"]; // (un-)armed transport helicopters
+heli_armed = 		["OPTRE_UNSC_falcon","OPTRE_UNSC_hornet","OPTRE_UNSC_hornet_CAP","OPTRE_UNSC_hornet_CAS"]; // armed helicopters
+heli_escort = 		"OPTRE_UNSC_hornet_CAP";
+planes = 			["OPTRE_Longsword_CAS"];; // attack planes
+heli_default = 		"OPTRE_Pelican_unarmed"; // default helicopter -- NOT AN ARRAY!
+heli_transport = 	"OPTRE_Pelican_armed";
 indUAV_large = 		"B_UAV_02_F"; // large UAV, unarmed
 
 // Initial motorpool/airforce
-enemyMotorpoolDef = "B_Truck_01_covered_F"; // fallback vehicle in case of an empty motorpool
-enemyMotorpool = 	["B_Truck_01_covered_F"]; // starting/current motorpool
-indAirForce = 		["B_Heli_Transport_03_F","B_Heli_Transport_01_F"]; // starting/current airforce
+enemyMotorpoolDef = "OPTRE_m1087_stallion_unsc"; // fallback vehicle in case of an empty motorpool
+enemyMotorpool = 	["OPTRE_m1087_stallion_unsc"]; // starting/current motorpool
+indAirForce = 		["OPTRE_Pelican_unarmed","OPTRE_UNSC_falcon"]; // starting/current airforce
 
 // Config paths for pre-defined groups -- required if group names are used
 cfgInf = 				(configfile >> "CfgGroups" >> "West" >> "BLU_F" >> "Infantry");
 
 
 // Standard group arrays, used for spawning groups -- can use full config paths, config group names, arrays of individual soldiers
-infPatrol = 		["BUS_InfSentry","BUS_InfSentry","BUS_InfSentry","BUS_SniperTeam"];
-infGarrisonSmall = 	["BUS_InfSentry"];
-infTeamATAA =		["BUS_InfTeam_AA","BUS_InfTeam_AT"];
-infTeam = 			["BUS_InfTeam_AA","BUS_InfTeam_AT","BUS_InfTeam","BUS_InfTeam","BUS_InfTeam"];
-infSquad = 			["BUS_InfSquad","BUS_InfSquad_Weapons"];
-infAA =			["BUS_InfTeam_AA"];
-infAT =				["BUS_InfTeam_AT"];
+infPatrol = 		[["OPTRE_UNSC_Army_Soldier_Grenadier_OLI","OPTRE_UNSC_Army_Soldier_Rifleman_AR_OLI"],["OPTRE_UNSC_Army_Soldier_Rifleman_AR_OLI","OPTRE_UNSC_Army_Soldier_Rifleman_AR_OLI"],["OPTRE_UNSC_Marine_Soldier_Sniper_WDL","OPTRE_UNSC_Marine_Soldier_ForwardObserver_WDL"]];
+infGarrisonSmall = 	["OPTRE_UNSC_Army_Soldier_Rifleman_AR_OLI","OPTRE_UNSC_Army_Soldier_Rifleman_AR_OLI"];
+infTeamATAA =		[[sol_TL, sol_AA, sol_AA, sol_RFL2],[sol_TL, sol_AT, sol_AT, sol_RFL2]];
+infTeam = 			[[sol_TL, sol_AA, sol_AA, sol_RFL2],[sol_TL, sol_AT, sol_AT, sol_RFL2],[sol_TL, sol_GL, sol_AR, sol_RFL2],[sol_TL, sol_EXP, sol_AR, sol_REP],[sol_TL, sol_AMMO, sol_AR, sol_AR]];
+infSquad = 			[[sol_SL, sol_RFL, sol_TL, sol_AR, sol_AMMO, sol_RFL, sol_RFL, sol_MED],[sol_SL, sol_RFL, sol_TL, sol_AR, sol_AMMO, sol_RFL, sol_RFL, sol_MED ],[sol_SL, sol_A_AR, sol_MK, sol_AR, sol_LAT, sol_A_AT, sol_GL, sol_MED]];
+infAA =			[sol_TL, sol_AA, sol_AA, sol_RFL2];
+infAT =				[sol_TL, sol_AT, sol_AT, sol_RFL2];
 
 
 
 // Statics to be used
-statMG = 			"B_HMG_01_high_F";
-statAT = 			"B_static_AT_F";
-statAA = 			"B_static_AA_F";
-statAA2 = 			"B_static_AA_F";
+statMG = 			"OPTRE_Static_M41";
+statAT = 			"OPTRE_Static_ATGM";
+statAA = 			"OPTRE_Static_AA";
+statAA2 = 			"OPTRE_LAU65D_pod";
 statMortar = 		"B_Mortar_01_F";
 
 statMGlow = 		"B_HMG_01_F";
@@ -144,29 +145,54 @@ statMGtowerBackpacks = 	["B_HMG_01_high_weapon_F","B_HMG_01_support_high_F"];
 Weapons, ammo, launchers, missiles, mines, items and optics will spawn in ammo crates, the rest will not. These lists, together with the corresponding lists in the NATO/USAF template, determine what can be unlocked. Weapons of all kinds and ammo are the exception: they can all be unlocked.
 */
 genWeapons = [
-	"arifle_MX_F",
-	"arifle_MX_SW_F",
-	"arifle_MXM_F",
-	"LMG_Mk200_F",
-	"launch_NLAW_F",
-	"SMG_01_F",
-	"srifle_EBR_F",
-	"arifle_MX_GL_F",
-	"srifle_LRR_F"
+	"OPTRE_BR55HB",
+	"OPTRE_M247",
+	"OPTRE_M6G",
+	"OPTRE_M6C",
+	"OPTRE_M392_DMR",
+	"OPTRE_M393_DMR",
+	"OPTRE_M393S_DMR",
+	"OPTRE_M45",
+	"OPTRE_M45A",
+	"OPTRE_M7",
+	"OPTRE_M73",
+	"OPTRE_M90A",
+	"OPTRE_MA37GL",
+	"OPTRE_MA37",
+	"OPTRE_MA5AGL",
+	"OPTRE_MA5A",
+	"OPTRE_MA5BGL",
+	"OPTRE_MA5B",
+	"OPTRE_MA5CGL",
+	"OPTRE_MA5C",
+	"OPTRE_MA5K",
+	"OPTRE_SRS99C",
+	"OPTRE_SRS99D"
 ];
 
 genAmmo = [
-	"200Rnd_65x39_cased_Box",
-	"30Rnd_65x39_caseless_mag_Tracer",
-	"30Rnd_45ACP_Mag_SMG_01",
-	"7Rnd_408_Mag",
-	"NLAW_F",
-	"1Rnd_HE_Grenade_shell",
-	"UGL_FlareWhite_F",
-	"UGL_FlareGreen_F",
+	"OPTRE_8Rnd_127x40_Mag",
+	"OPTRE_12Rnd_127x40_Mag",
+	"OPTRE_36Rnd_95x40_Mag",
+	"OPTRE_100Rnd_762x51_Box_Tracer",
+	"OPTRE_100Rnd_762x51_Box",
+	"OPTRE_15Rnd_762x51_Mag",
+	"OPTRE_15Rnd_762x51_Mag",
+	"OPTRE_12Rnd_8Gauge_Pellets",
+	"OPTRE_6Rnd_8Gauge_Pellets",
+	"OPTRE_12Rnd_8Gauge_Slugs",
+	"OPTRE_6Rnd_8Gauge_Slugs",
+	"OPTRE_100Rnd_95x40_Box",
+	"OPTRE_60Rnd_5x23mm_Mag",
+	"OPTRE_32Rnd_762x51_Mag",
+	"OPTRE_60Rnd_762x51_Mag",
+	"OPTRE_4Rnd_145x114_APFSDS_Mag",
+	"OPTRE_8Rnd_127x40_Mag",
+	"OPTRE_4Rnd_145x114_HVAP_Mag",
+	"OPTRE_4Rnd_145x114_HEDP_Mag",
 	"1Rnd_Smoke_Grenade_shell",
 	"3Rnd_HE_Grenade_shell",
-	"HandGrenade",
+	"OPTRE_M9_Frag",
 	"20Rnd_762x51_Mag",
 	"30Rnd_65x39_caseless_mag",
 	"SmokeShell",
@@ -174,14 +200,14 @@ genAmmo = [
 ];
 
 genLaunchers = [
-	"launch_B_Titan_short_F",
-	"launch_B_Titan_F"
+	"OPTRE_M41_SSR",
+	"OPTRE_M41_SSR_G"
 ];
 
 genMissiles = [
-	"Titan_AT",
-	"Titan_AP",
-	"Titan_AA"
+	"OPTRE_M41_Twin_HEAT",
+	"OPTRE_M41_Twin_HEAP",
+	"OPTRE_M41_Twin_HEAT_G"
 ];
 genMines = [
 	"SLAMDirectionalMine_Wire_Mag",
@@ -194,22 +220,21 @@ genMines = [
 ];
 
 genItems = [
-	"Binocular",
+	"OPTRE_Binoculars",
 	"FirstAidKit",
 	"Medikit",
 	"MineDetector",
 	"NVGoggles",
 	"ToolKit",
-	"muzzle_snds_H",
-	"muzzle_snds_L",
-	"muzzle_snds_M",
-	"muzzle_snds_B",
-	"muzzle_snds_H_MG",
-	"muzzle_snds_acp",
-	"bipod_03_F_oli",
-	"muzzle_snds_338_green",
-	"muzzle_snds_93mmg_tan",
-	"acc_flashlight",
+	"OPTRE_SRS99D_Suppressor",
+	"muzzle_snds_65_TI_blk_F",
+	"OPTRE_M393_Suppressor",
+	"OPTRE_M7_silencer",
+	"OPTRE_M7_Laser",
+	"OPTRE_M6C_compensator",
+	"OPTRE_M6C_Laser",
+	"OPTRE_M6_silencer",
+	"OPTRE_M6G_Flashlight",
 	"Rangefinder",
 	"Laserdesignator",
 	"ItemGPS",
@@ -218,54 +243,39 @@ genItems = [
 ];
 
 genOptics = [
-	"optic_DMS",
-	"optic_LRPS",
-	"optic_tws",
-	"optic_tws_mg",
-	"optic_NVS",
-	"optic_Nightstalker",
-	"optic_MRCO",
-	"optic_SOS",
-	"optic_Hamr",
-	"optic_Arco",
-	"optic_KHS_old",
-	"optic_Holosight",
-	"optic_ACO_grn",
-	"optic_Aco_smg",
-	"optic_ACO_grn_smg",
-	"optic_Holosight_smg"
+	"OPTRE_SRS99C_Scope",
+	"OPTRE_SRS99_Scope",
+	"REC_HOLO",
+	"SENT_CG",
+	"OPTRE_BR55HB_Scope",
+	"OPTRE_M392_Scope",
+	"OPTRE_M393_Scope",
+	"OPTRE_M393_ACOG",
+	"OPTRE_M7_Sight",
+	"OPTRE_M393_EOTECH",
+	"OPTRE_M6C_Scope",
+	"OPTRE_M6G_Scope"
 ];
 
 genBackpacks = [
-	"B_AssaultPack_khk",
-	"B_AssaultPack_dgtl",
-	"B_AssaultPack_rgr",
-	"B_AssaultPack_sgg",
-	"B_AssaultPack_blk",
-	"B_AssaultPack_cbr",
-	"B_AssaultPack_mcamo",
-	"B_Kitbag_mcamo",
-	"B_Kitbag_sgg",
-	"B_Kitbag_cbr",
-	"B_Bergen_sgg",
-	"B_Bergen_mcamo",
-	"B_Bergen_rgr",
-	"B_Bergen_blk",
-	"B_FieldPack_oli",
-	"B_FieldPack_blk",
-	"B_FieldPack_ocamo",
-	"B_FieldPack_oucamo",
-	"B_FieldPack_cbr",
+	"OPTRE_ANPRC_515",
+	"OPTRE_ANPRC_521_Black",
+	"OPTRE_ANPRC_521_Green",
+	"OPTRE_ILCS_Rucksack_Medical",
+	"OPTRE_ILCS_Rucksack_Black",
+	"OPTRE_ILCS_Rucksack_Black_M41",
+	"OPTRE_ILCS_Rucksack_Heavy",
+	"OPTRE_UNSC_Rucksack",
+	"OPTRE_UNSC_Rucksack_Heavy",
+	"OPTRE_UNSC_Rucksack_Medic",
+	"OPCAN_RADIO_Des",
+	"OPCAN_RADIO_Urb",
+	"OPCAN_RADIO_WDL",
 	"B_Carryall_ocamo",
 	"B_Carryall_mcamo",
 	"B_Carryall_oli",
 	"B_Carryall_khk",
 	"B_Carryall_cbr",
-	"B_OutdoorPack_blk",
-	"B_OutdoorPack_tan",
-	"B_OutdoorPack_blu",
-	"B_HuntingBackpack",
-	"B_Static_Designator_01_weapon_F",
 	"B_UAV_01_backpack_F",
 	"I_AA_01_weapon_F",
 	"B_AA_01_weapon_F",
@@ -283,94 +293,83 @@ genBackpacks = [
 ];
 
 genVests = [
-	"V_HarnessO_brn",
-	"V_HarnessO_gry",
-	"V_HarnessOGL_brn",
-	"V_HarnessOGL_gry",
-	"V_HarnessOSpec_brn",
-	"V_HarnessOSpec_gry",
-	"V_PlateCarrier1_blk",
-	"V_PlateCarrier1_rgr",
-	"V_PlateCarrier2_rgr",
-	"V_PlateCarrier3_rgr",
-	"V_PlateCarrier3_rgr",
-	"V_PlateCarrierIA1_dgtl",
-	"V_TacVest_brn",
-	"V_PlateCarrierIA2_dgtl",
-	"V_PlateCarrierIAGL_dgtl",
-	"V_PlateCarrierSpec_rgr",
-	"V_TacVest_blk",
-	"V_TacVest_camo",
-	"V_TacVest_khk",
-	"V_TacVest_oli",
-	"V_TacVestCamo_khk",
-	"V_TacVestIR_blk",
+	"OPTRE_UNSC_M52A_Armor_MG_WDL",
+	"OPTRE_UNSC_M52A_Armor_MG_MAR",
+	"OPTRE_UNSC_M52A_Armor_Breacher_WDL",
+	"OPTRE_UNSC_M52A_Armor_Breacher_MAR",
+	"OPTRE_UNSC_M52A_Armor_Corpsman_MAR",
+	"OPTRE_UNSC_M52A_Armor_Grenadier_MAR",
+	"OPTRE_UNSC_M52A_Armor_Grenadier_WDL",
+	"OPTRE_UNSC_M52A_Armor1_MAR",
+	"OPTRE_UNSC_M52A_Armor1_WDL",
+	"OPTRE_UNSC_M52A_Armor3_MAR",
+	"OPTRE_UNSC_M52A_Armor3_WDL	",
+	"OPTRE_UNSC_M52A_Armor_Marksman_MAR",
+	"OPTRE_UNSC_M52A_Armor_Marksman_WDL",
+	"OPTRE_UNSC_M52A_Armor_Medic_WDL",
+	"OPTRE_UNSC_M52A_Armor2_WDL",
+	"OPTRE_UNSC_M52A_Armor2_MAR",
+	"OPTRE_UNSC_M52A_Armor_Rifleman_MAR",
+	"OPTRE_UNSC_M52A_Armor_Rifleman_WDL",
+	"OPTRE_UNSC_M52A_Armor_Sniper_MAR",
+	"OPTRE_UNSC_M52A_Armor_Sniper_WDL",
+	"OPTRE_UNSC_M52A_Armor_SoftDK",
+	"OPTRE_UNSC_M52A_Armor_Soft",
 	"V_RebreatherIA",
 	"G_I_Diving",
-	"V_PlateCarrierIAGL_oli",
-	"V_Chestrig_oli"
+	"OPTRE_UNSC_M52A_Armor_TL_MAR",
+	"OPTRE_UNSC_M52A_Armor_TL_WDL",
+	"OPTRE_UNSC_M52A_Armor4_MAR",
+	"OPTRE_UNSC_M52A_Armor4_WDL"
 ];
 
 genHelmets = [
-	"H_HelmetB",
-	"H_HelmetB_camo",
-	"H_HelmetB_paint",
-	"H_HelmetB_light",
-	"H_HelmetB_plain_mcamo",
-	"H_HelmetB_plain_blk",
-	"H_HelmetSpecB",
-	"H_HelmetSpecB_paint1",
-	"H_HelmetSpecB_paint2",
-	"H_HelmetSpecB_blk",
-	"H_HelmetIA",
-	"H_HelmetIA_net",
-	"H_HelmetIA_camo",
-	"H_HelmetB_grass",
-	"H_HelmetB_snakeskin",
-	"H_HelmetB_desert",
-	"H_HelmetB_black",
-	"H_HelmetB_sand",
-	"H_HelmetB_sand",
-	"H_HelmetCrew_O",
-	"H_HelmetCrew_I",
-	"H_PilotHelmetFighter_B",
-	"H_PilotHelmetFighter_O",
-	"H_PilotHelmetFighter_I",
-	"H_PilotHelmetHeli_B",
-	"H_PilotHelmetHeli_O",
-	"H_PilotHelmetHeli_I",
-	"H_CrewHelmetHeli_B",
-	"H_CrewHelmetHeli_O",
-	"H_CrewHelmetHeli_I",
-	"H_HelmetO_ocamo",
-	"H_HelmetLeaderO_ocamo",
-	"H_HelmetB_light_grass",
-	"H_HelmetB_light_snakeskin",
-	"H_HelmetB_light_desert",
-	"H_HelmetB_light_black",
-	"H_HelmetB_light_sand",
-	"H_HelmetO_oucamo",
-	"H_HelmetLeaderO_oucamo",
-	"H_HelmetSpecO_ocamo",
-	"H_HelmetSpecO_blk",
-	"H_HelmetSpecO_blk"
+	"OPTRE_UNSC_CH252_Helmet2_MAR_MED",
+	"OPTRE_UNSC_CH252_Helmet2_MAR",
+	"OPTRE_UNSC_CH252_Helmet2_WDL_MED",
+	"OPTRE_UNSC_CH252_Helmet2_WDL",
+	"OPTRE_UNSC_CH252_Helmet3_WDL",
+	"OPTRE_UNSC_CH252_Helmet_MAR_MED",
+	"OPTRE_UNSC_CH252_Helmet_MAR",
+	"OPTRE_UNSC_CH252_Helmet_WDL",
+	"OPTRE_UNSC_CH252_Helmet_WDL_MED",
+	"OPTRE_UNSC_CH252_Helmet2_Vacuum_MAR_MED",
+	"OPTRE_UNSC_CH252_Helmet2_Vacuum_MAR",
+	"OPTRE_UNSC_CH252_Helmet2_Vacuum_WDL_MED",
+	"OPTRE_UNSC_CH252_Helmet2_Vacuum_WDL",
+	"OPTRE_UNSC_CH252_Helmet_Vacuum_MAR_MED",
+	"OPTRE_UNSC_CH252_Helmet_Vacuum_MAR",
+	"OPTRE_UNSC_CH252_Helmet_Vacuum_WDL_MED",
+	"OPTRE_UNSC_CH252_Helmet_Vacuum_WDL",
+	"OPTRE_h_PatrolCap_Green",
+	"OPTRE_h_PatrolCap_Brown",
+	"OPTRE_UNSC_PatrolCap_Army",
+	"OPTRE_UNSC_PatrolCap_Marines",
+	"OPTRE_PatrolCap_Navy",
+	"OPCAN_Helm_CH250_BWN",
+	"OPCAN_Helm_CH250",
+	"OPCAN_Helm_HW",
+	"OPCAN_CH252_URB_VP2",
+	"OPTRE_h_Booniehat_Grey",
+	"OPCAN_Helm_CH250_DES",
+	"OPTRE_UNSC_Watchcap"
 ];
 
 // Equipment unlocked by default
 unlockedWeapons = [
-	"hgun_PDW2000_F",
-	"hgun_ACPC2_F",
+	"OPTRE_M7",
+	"OPTRE_M6G",
 	"Binocular"
 ];
 
 // Standard rifles for AI are picked from this array. Add only rifles.
 unlockedRifles = [
-	"hgun_PDW2000_F"
+	"OPTRE_M7"
 ];
 
 unlockedMagazines = [
-	"9Rnd_45ACP_Mag",
-	"30Rnd_9x21_Mag"
+	"OPTRE_8Rnd_127x40_Mag",
+	"OPTRE_60Rnd_5x23mm_Mag"
 ];
 
 unlockedItems = [
@@ -381,12 +380,12 @@ unlockedItems = [
 	"FirstAidKit",
 	"Medikit",
 	"ToolKit",
-	"U_BG_Guerilla1_1",
-	"U_BG_Guerilla2_1",
-	"U_BG_Guerilla2_2",
-	"U_BG_Guerilla2_3",
-	"U_BG_Guerilla3_1",
-	"U_BG_leader",
+	"OPTRE_Ins_ER_uniform_GAgreen",
+	"OPTRE_Ins_ER_uniform_GAtan",
+	"OPTRE_Ins_ER_uniform_GGgrey",
+	"OPTRE_Ins_ER_uniform_GGod",
+	"OPTRE_Ins_ER_jacket_od_surplus",
+	"OPTRE_Ins_URF_Combat_Uniform",
 	"H_Booniehat_khk",
 	"H_Booniehat_oli",
 	"H_Cap_oli",
@@ -433,8 +432,8 @@ unlockedItems = [
 	"U_NikosBody",
 	"U_C_Poor_1",
 	"U_C_WorkerCoveralls",
-	"U_BG_Guerrilla_6_1",
-	"U_B_survival_uniform",
+	"OPTRE_Ins_ER_rolled_surplus_black",
+	"OPTRE_Ins_ER_rolled_surplus_crimson",
 	"U_OrestesBody",
 	"V_BandollierB_oli",
 	"G_Bandanna_khk"
@@ -447,11 +446,11 @@ unlockedBackpacks = [
 unlockedOptics = [];
 
 // Default rifle types, required to unlock specific unit types. Unfortunatly, not all mods classify their weapons the same way, so automatic detection doesn't work reliably enough.
-gear_machineGuns = gear_machineGuns + ["LMG_Mk200_F","LMG_Zafir_F","arifle_MX_SW_F"];
+gear_machineGuns = gear_machineGuns + ["OPTRE_M73","OPTRE_M247"];
 gear_machineGuns = gear_machineGuns arrayIntersect gear_machineGuns;
-gear_sniperRifles = gear_sniperRifles + ["srifle_DMR_01_F","srifle_EBR_F","srifle_GM6_F","srifle_LRR_F","arifle_MXM_F","srifle_DMR_06_olive_F"];
+gear_sniperRifles = gear_sniperRifles + ["OPTRE_M393_DMR","OPTRE_M392_DMR","OPTRE_M393S_DMR","OPTRE_SRS99D","OPTRE_SRS99C"];
 gear_sniperRifles = gear_sniperRifles arrayIntersect gear_sniperRifles;
-genGL = ["arifle_Katiba_GL_F","arifle_MX_GL_F","arifle_Mk20_GL_F","arifle_TRG21_GL_F"];
+genGL = ["OPTRE_MA5CGL","OPTRE_MA37GL","OPTRE_MA5BGL","OPTRE_MA5AGL"];
 
 // Standard rifles for your troops to be equipped with
 baseRifles =+ unlockedRifles;
@@ -470,7 +469,7 @@ IND_gear_lightAT = "launch_NLAW_F";
 AAmissile = 	"Titan_AA";
 
 // NVG, flashlight, laser, mine types
-indNVG = 		"NVGoggles_INDEP";
+indNVG = 		"OPTRE_NVG";
 indRF = 		"Rangefinder";
 indFL = 		"acc_flashlight";
 indLaser = 		"acc_pointer_IR";
@@ -487,7 +486,7 @@ side_green = 	west;
 lrRadio = "tf_rt1523g_green";
 
 // Define the civilian helicopter that allows you to go undercover
-civHeli = "C_Heli_Light_01_civil_F";
+civHeli = "OPCAN_Pelican_CIVTRX2";
 
 // Define the ammo crate to be spawned at camps
 campCrate = 		"Box_NATO_Equip_F";
